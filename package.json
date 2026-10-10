@@ -1,7 +1,7 @@
 {
-  "name": "@distribution-intelligence/core",
+  "name": "@fleet-route-optimizer/core",
   "version": "0.1.0",
-  "description": "Decision intelligence and constraint optimization worker for supply chain distribution",
+  "description": "Fleet route optimization (VRPTW) and cost-to-serve solver engine for supply chain distribution",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
