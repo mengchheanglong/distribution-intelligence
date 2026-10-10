@@ -160,7 +160,7 @@ export const server = http.createServer(async (req, res) => {
       sendJson(res, 200, {
         schemaVersion: 1,
         status: 'ready',
-        service: '@distribution-intelligence/core',
+        service: '@fleet-route-optimizer/core',
         version: '0.1.0',
         algorithms: ['GreedyVrpSolver', 'MetaheuristicVrpOptimizer'],
         evaluators: ['PlanComparator', 'FinancialCostModel', 'ScenarioComparator'],

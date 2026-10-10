@@ -22,7 +22,7 @@ describe('Server: Distribution Intelligence REST Endpoints', () => {
     assert.equal(res.status, 200);
     const data = await res.json();
     assert.equal(data.status, 'ready');
-    assert.equal(data.service, '@distribution-intelligence/core');
+    assert.equal(data.service, '@fleet-route-optimizer/core');
     assert.ok(data.algorithms.includes('MetaheuristicVrpOptimizer'));
   });
 
