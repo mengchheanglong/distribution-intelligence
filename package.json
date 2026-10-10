@@ -7,6 +7,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
+    "start": "node dist/server.js",
     "test": "node --test --import tsx/esm tests/*.test.ts",
     "lint": "tsc --noEmit"
   },
