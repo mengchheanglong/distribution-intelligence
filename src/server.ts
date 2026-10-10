@@ -18,7 +18,7 @@ import {
   type HistoricalTrip,
 } from './index.js';
 
-const PORT = Number(process.env.PORT || 3200);
+const PORT = Number(process.env.PORT || 8200);
 
 function sendJson(res: http.ServerResponse, statusCode: number, data: unknown) {
   const json = JSON.stringify(data);
